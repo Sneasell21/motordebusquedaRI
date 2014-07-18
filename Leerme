@@ -1,0 +1,20 @@
+Esta es la implementación utilizando el modelo vectorial de un sistema de recuperación de información
+         Es la forma más básica.
+ 
+ 
+El Web Crawler , se puede ejecutar siguiendo las siguientes consideraciones :
+-> Revisar las rutas donde se almacenarán los archivos.
+->Localizar la clase flexwebcrawler.UtilClass en su método Main, para iniciar con la descarga de las páginas tanto HTML cómo PDF
+ 
+Para su ejecución localizar la clase analizador.TestLexerClassTokenLexer.Main
+        Dentro de él se coloca el query a buscar y se ejecuta el programa.
+ 
+->una consideración es revisar la ubicación de la colección como los archivos.TOK generados.Obviamente si no estan en
+la ubicación correcta una excepción de NOFILEFOUND apoarecerá.
+ 
+-> Se agregan un fracción de los archivos de la colección, porque no me es posible subir los 2GB de la colección original.
+Se subio una fracción simplemente para poder probarlo cuando se descarga.
+ 
+Revisar las dependecias con TIKa y Apache Utils a la hora de la descarga del código.
+ 
+Manuel Díaz
